@@ -10,7 +10,7 @@ def process_video():
         # Здесь обработайте видео в вашей нейронной сети
         # и получите результаты в формате JSON
         # В данном примере просто возвращаем случайные результаты
-        result = {'prediction': 'catcatcatcat'}
+        result = {'prediction': 'Данные от нейронки'}
         return jsonify(result)
     except Exception as e:
         print(str(e))
