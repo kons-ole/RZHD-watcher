@@ -4,47 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .container {
-            text-align: center;
-            border: 1px solid #ccc;
-            padding: 20px;
-            max-width: 600px;
-            width: 100%;
-        }
-
-        #videoInput {
-            margin-bottom: 10px;
-        }
-
-        #videoContainer {
-            margin-top: 20px;
-        }
-
-        #videoInfo {
-            margin-top: 10px;
-        }
-
-        #result {
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css"> 
 </head>
 <body>
     <div class="container">
-        <h1>Upl and Play Video</h1>
+        <h1>Распозннание действий человека по видео</h1>
         
         <input type="file" id="videoInput" accept="video/*">
+        <label for="videoInput">Выберите файл</label>
         
         <div id="videoContainer">
             <video controls id="videoPlayer"></video>
